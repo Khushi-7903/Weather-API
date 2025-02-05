@@ -22,6 +22,7 @@ form.addEventListener("submit", function (e) {
             </div>
             `;
             getApi.innerHTML = result;
+            input.value = "";
 
             if (temperature < 15) {
                 mainCard.style.backgroundImage = "url('img/2.jpg')";
